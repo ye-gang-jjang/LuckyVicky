@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5F40E82C4BB02800FFFE77 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F40E72C4BB02800FFFE77 /* Model.swift */; };
 		5C818B1A2C4B9ED000CD1A46 /* LuckyVickyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */; };
 		5C818B1C2C4B9ED000CD1A46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */; };
 		5C818B1E2C4B9ED200CD1A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C5F40E72C4BB02800FFFE77 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5C818B162C4B9ED000CD1A46 /* LuckyVicky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyVicky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyVickyApp.swift; sourceTree = "<group>"; };
 		5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C5F40E52C4BB00700FFFE77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C5F40E62C4BB00F00FFFE77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C5F40E72C4BB02800FFFE77 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5C818B0D2C4B9ED000CD1A46 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +68,8 @@
 		5C818B182C4B9ED000CD1A46 /* LuckyVicky */ = {
 			isa = PBXGroup;
 			children = (
+				5C5F40E62C4BB00F00FFFE77 /* Model */,
+				5C5F40E52C4BB00700FFFE77 /* View */,
 				5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */,
 				5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */,
 				5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */,
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5F40E82C4BB02800FFFE77 /* Model.swift in Sources */,
 				5C818B1C2C4B9ED000CD1A46 /* ContentView.swift in Sources */,
 				5C818B1A2C4B9ED000CD1A46 /* LuckyVickyApp.swift in Sources */,
 			);
