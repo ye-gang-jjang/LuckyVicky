@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5C5F40E82C4BB02800FFFE77 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F40E72C4BB02800FFFE77 /* Model.swift */; };
+		5C5F40EC2C4BB0F200FFFE77 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F40EB2C4BB0F200FFFE77 /* ListView.swift */; };
+		5C5F40F52C4BB34A00FFFE77 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F40F42C4BB34A00FFFE77 /* TodayView.swift */; };
+		5C5F40F72C4BB35C00FFFE77 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5F40F62C4BB35C00FFFE77 /* HomeView.swift */; };
 		5C818B1A2C4B9ED000CD1A46 /* LuckyVickyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */; };
-		5C818B1C2C4B9ED000CD1A46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */; };
 		5C818B1E2C4B9ED200CD1A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */; };
 		5C818B212C4B9ED200CD1A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C818B202C4B9ED200CD1A46 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C5F40E72C4BB02800FFFE77 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5C5F40EB2C4BB0F200FFFE77 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5C5F40F42C4BB34A00FFFE77 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		5C5F40F62C4BB35C00FFFE77 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5C818B162C4B9ED000CD1A46 /* LuckyVicky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyVicky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyVickyApp.swift; sourceTree = "<group>"; };
-		5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C818B202C4B9ED200CD1A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +41,10 @@
 		5C5F40E52C4BB00700FFFE77 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */,
+				5C5F40EB2C4BB0F200FFFE77 /* ListView.swift */,
+				5C5F40F42C4BB34A00FFFE77 /* TodayView.swift */,
+				5C5F40F62C4BB35C00FFFE77 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -47,6 +55,14 @@
 				5C5F40E72C4BB02800FFFE77 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5C5F40ED2C4BB11000FFFE77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		5C818B0D2C4B9ED000CD1A46 = {
@@ -70,9 +86,7 @@
 			children = (
 				5C5F40E62C4BB00F00FFFE77 /* Model */,
 				5C5F40E52C4BB00700FFFE77 /* View */,
-				5C818B192C4B9ED000CD1A46 /* LuckyVickyApp.swift */,
-				5C818B1B2C4B9ED000CD1A46 /* ContentView.swift */,
-				5C818B1D2C4B9ED200CD1A46 /* Assets.xcassets */,
+				5C5F40ED2C4BB11000FFFE77 /* Resources */,
 				5C818B1F2C4B9ED200CD1A46 /* Preview Content */,
 			);
 			path = LuckyVicky;
@@ -156,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5F40EC2C4BB0F200FFFE77 /* ListView.swift in Sources */,
 				5C5F40E82C4BB02800FFFE77 /* Model.swift in Sources */,
-				5C818B1C2C4B9ED000CD1A46 /* ContentView.swift in Sources */,
+				5C5F40F52C4BB34A00FFFE77 /* TodayView.swift in Sources */,
+				5C5F40F72C4BB35C00FFFE77 /* HomeView.swift in Sources */,
 				5C818B1A2C4B9ED000CD1A46 /* LuckyVickyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
