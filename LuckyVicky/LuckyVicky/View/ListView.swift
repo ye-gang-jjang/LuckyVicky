@@ -8,10 +8,28 @@
 import SwiftUI
 
 struct ListView: View {
+    
     var body: some View {
         VStack {
-            Text("Qwe")
+            TabView {
+                AddedView
+                
+                FavoriteView
+            }
+            .tabViewStyle(PageTabViewStyle())
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+
         }
+    }
+    
+    @ViewBuilder
+    private var AddedView: some View {
+        Text("addedView")
+    }
+    
+    @ViewBuilder
+    private var FavoriteView: some View {
+        Text("favoriteView")
     }
 }
 
